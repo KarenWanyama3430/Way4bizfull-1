@@ -1,0 +1,16 @@
+.edit-category-form input {
+  border: 1px solid #d4d4d4;
+}
+
+.edit-category-form input:focus {
+  border: 1px solid #d4d4d4;
+  box-shadow: none;
+  outline: none;
+}
+
+.sub-category-wrapper2 {
+  padding: 3px 5px;
+  background-color: #eaecee;
+  border-radius: 3px;
+  display: inline;
+}

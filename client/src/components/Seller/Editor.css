@@ -1,0 +1,17 @@
+.editor {
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  min-height: 400px;
+}
+.test {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .editor {
+    width: 90%;
+    margin: auto;
+    min-height: 300px !important;
+  }
+}

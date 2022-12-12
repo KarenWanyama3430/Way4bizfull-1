@@ -1,0 +1,13 @@
+.seller-dashboard-no-reviews {
+  height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.seller-no-reviews {
+  font-size: 150px;
+  color: #f76b1a;
+}

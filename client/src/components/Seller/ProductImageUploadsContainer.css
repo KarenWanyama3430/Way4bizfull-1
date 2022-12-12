@@ -1,0 +1,50 @@
+.uploads-container {
+  width: 90%;
+  margin: auto;
+  height: 220px;
+  overflow-y: hidden;
+  white-space: nowrap;
+  overflow-x: scroll;
+  background-color: #eaecee !important;
+  -webkit-overflow-scrolling: touch;
+  padding: 2px 10px 0px 10px;
+}
+
+.uploaded-product-image-wrapper {
+  margin: 0px 5px 10px 5px;
+  display: inline-block;
+  zoom: 1;
+  float: none;
+  text-align: center;
+}
+
+.uploaded-product-image {
+  width: 160px;
+  height: 160px;
+}
+
+.uploaded-product-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.upload-image-trash-button {
+  height: 40px;
+  background-color: #f76b1a;
+  width: 160px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  padding: 0px;
+  border: none;
+}
+
+.disable-trash {
+  pointer-events: none;
+}
+.upload-image-trash-button:hover {
+  color: #fff;
+}

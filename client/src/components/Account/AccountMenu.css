@@ -1,0 +1,58 @@
+.account-menu-container {
+  height: 420px;
+  /* margin-bottom: 20px; */
+}
+
+.account-menu-wrapper {
+  width: 100%;
+}
+
+.navlink {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #000;
+}
+
+.navlink:hover {
+  text-decoration: none !important;
+  color: #000;
+  width: 100% !important;
+  font-weight: 500;
+  background-color: #f8f9f9;
+  color: #f76b1a !important;
+  padding: 10px;
+}
+
+.account-active,
+.account-active:hover {
+  color: #f76b1a !important;
+  font-weight: 600;
+  width: 100% !important;
+  background-color: #ededed;
+}
+
+#account-logout {
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  background-color: #eaecee !important;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #000;
+  cursor: pointer;
+}
+
+#account-logout:hover {
+  color: #f76b1a !important;
+}
+
+@media screen and (max-width: 960px) {
+  .account-menu-container {
+    display: none;
+  }
+}

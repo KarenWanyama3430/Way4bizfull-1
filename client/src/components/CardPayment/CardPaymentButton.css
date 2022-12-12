@@ -1,0 +1,42 @@
+#stripe-payment-form {
+  margin: 0px 5px;
+}
+/* 
+#stripe-card-wrapper {
+  padding: 10px;
+  border: 2px solid #5433ff;
+  border-radius: 4px;
+} */
+
+/* .stripe-payment-btn {
+  background-color: #f76b1a;
+  color: #fff;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.stripe-payment-btn:focus {
+  box-shadow: none;
+  outline: none;
+} */
+
+.card-pay-button {
+  background-color: #f76b1a;
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  border: none !important;
+  color: #fff;
+}
+
+.card-pay-button:hover {
+  width: 100% !important;
+  height: 40px !important;
+}
+
+/* @media screen and (max-width: 767px) {
+  .card-pay-button {
+    width: 100%;
+  }
+} */

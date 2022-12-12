@@ -1,0 +1,46 @@
+.seller-uploads-wrapper {
+  /* text-align: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: #eaecee;
+  width:100%;
+}
+
+.seller-uploads-wrapper div {
+  background-color: #fff;
+}
+
+.seller-uploads-wrapper img {
+  width: 100%;
+}
+
+.seller-uploads-trash-button-wrapper {
+  align-items: center;
+  height: 30px;
+  margin: 10px;
+}
+
+.seller-uploads-trash-button {
+  background-color: #f76b1a;
+  color: #fff;
+  width: 100%;
+}
+
+.seller-uploads-trash-button:hover {
+  color: #fff;
+}
+
+.seller-uploads-trash-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+#seller-orientation-documents-wrapper{
+  min-height:calc(100vh - 140px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,34 @@
+.reviews-wrapper {
+  padding: 20px 0px;
+}
+
+.review-wrapper {
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.seller-review-product-title-name {
+  display: flex;
+  align-items: center;
+}
+
+.seller-review-product-title-name h6 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.seller-review-product-title-name span:hover {
+  text-decoration: underline;
+  color: #f76b1a;
+}
+
+.seller-review-title-arrow {
+  margin: 0px 10px;
+  font-size: 20px;
+}
+
+/* .seller-review-product-title-name{
+
+} */

@@ -1,0 +1,45 @@
+.location-input {
+  position: relative;
+  width: 500px;
+  margin: auto;
+}
+
+.location-input input {
+  border: 1px solid #d4d4d4;
+  height: 50px;
+}
+
+.location-input input:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #d4d4d4;
+}
+
+.city-locations {
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  border-top: 0px;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.city-name {
+  padding: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.city-name:hover {
+  background-color: #eaecee;
+  color: #f76b1a;
+}
+
+@media screen and (max-width: 960px) {
+  .location-input {
+    width: 90vw;
+  }
+}

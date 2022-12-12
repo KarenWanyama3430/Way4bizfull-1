@@ -1,0 +1,33 @@
+.submit-review-btn {
+  color: #fff;
+  background-color: #f76b1a;
+  border: none;
+}
+
+.submit-review-btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.submit-review-btn:hover {
+  color: #fff;
+}
+
+.review-form-field {
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+  border-radius: 0px;
+}
+
+.review-form-field:focus {
+  border-bottom: 1px solid #f76b1a;
+  border-radius: 0px;
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (max-width: 960px) {
+  .add-review-wrapper {
+    margin-bottom: 60px;
+  }
+}

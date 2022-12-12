@@ -1,0 +1,17 @@
+.no-account-deliveries {
+  /* height: 100%; */
+  width: 90%;
+  min-height: 40vh !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .no-account-deliveries {
+    min-height: 50vh !important;
+  }
+}

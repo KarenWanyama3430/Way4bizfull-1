@@ -1,0 +1,36 @@
+.about-icon-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.about-icon-container {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #f76b1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.about-us-text-wrapper {
+  padding-left: 20px;
+}
+
+.about-us-text-wrapper p {
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 719px) {
+  .about-icon-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-us-text-wrapper h4 {
+    text-align: center;
+  }
+}

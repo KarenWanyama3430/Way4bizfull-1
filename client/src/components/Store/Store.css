@@ -1,0 +1,11 @@
+.sticky-store-category {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
+}
+
+@media screen and (max-width: 960px) {
+  .sticky-store-category {
+    display: none;
+  }
+}

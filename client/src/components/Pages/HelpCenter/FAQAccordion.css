@@ -1,0 +1,16 @@
+.my-accordion {
+  width: 100%;
+  /* max-width: 470px; */
+}
+
+.faq-content-section p {
+  margin: 5px 0px;
+}
+
+.faq-content-section a {
+  color: #f76b1a;
+}
+
+.faq-content-section ul {
+  padding-left: 20px;
+}

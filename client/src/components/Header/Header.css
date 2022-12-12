@@ -1,0 +1,23 @@
+#header-wrapper {
+  height: 110px;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 600;
+  max-width:1500px;
+  /* margin-bottom: 20px; */
+}
+
+.header {
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    /* margin-bottom: 20px; */
+    align-items: flex-start;
+  }
+}

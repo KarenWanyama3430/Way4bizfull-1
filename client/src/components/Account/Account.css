@@ -1,0 +1,16 @@
+.account-location-input {
+  width: 100%;
+  position: relative;
+}
+
+.account-location-input input:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #d4d4d4;
+}
+
+@media screen and (max-width: 960px) {
+  .account-wrapper {
+    margin-bottom: 60px;
+  }
+}

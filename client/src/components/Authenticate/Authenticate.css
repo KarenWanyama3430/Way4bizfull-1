@@ -1,0 +1,30 @@
+#auth-section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.auth-forms {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#auth-navigator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  font-weight: bold;
+}
+
+#auth-navigator div p {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 719px) {
+  #auth-section {
+    height: calc(100vh - 80px);
+    /* width: 100vw; */
+  }
+}

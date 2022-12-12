@@ -1,0 +1,10 @@
+.product-lazy-loading {
+  background-color: green;
+  /* height: 200px; */
+  color: #fff;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}

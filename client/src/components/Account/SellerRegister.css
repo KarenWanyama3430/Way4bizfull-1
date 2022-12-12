@@ -1,0 +1,18 @@
+#seller-register-sign-in {
+  width: 500px;
+  margin: auto;
+}
+
+#seller-register-sign-in-link {
+  color: #f76b1a;
+}
+
+#seller-register-sign-in-link:hover {
+  color: #f76b1a;
+}
+
+@media screen and (max-width: 920px) {
+  #seller-register-sign-in {
+    width: 90vw;
+  }
+}

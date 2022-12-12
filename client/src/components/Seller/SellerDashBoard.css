@@ -1,0 +1,72 @@
+.dashboard-content {
+  /* padding: 20px; */
+  height: calc(100vh - 90px);
+  overflow-y: auto;
+  position: relative;
+}
+
+.dashboard-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.dashboard-content::-webkit-scrollbar-thumb {
+  background-color: #f76b1a;
+  border-radius: 3px;
+}
+
+.seller-welcome {
+  font-size: 40px;
+}
+
+.seller-welcome a {
+  color: #f76b1a;
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+.dashboard-content hr {
+  background-color: #eee;
+}
+
+.big-number {
+  font-size: 100px;
+  color: #d4d4d4;
+}
+
+.big-number-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 20 0px;
+  min-height: 200px;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .seller-welcome {
+    font-size: 30px;
+  }
+
+  .seller-welcome a {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .seller-welcome {
+    font-size: 25px;
+  }
+
+  .seller-welcome a {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .seller-welcome {
+    font-size: 20px;
+  }
+
+  .seller-welcome a {
+    font-size: 15px;
+  }
+}

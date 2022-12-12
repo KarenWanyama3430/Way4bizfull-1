@@ -1,0 +1,135 @@
+.dashboard-product-wrapper {
+  display: flex;
+  align-items: center;
+  border-left: 3px solid #f76b1a;
+}
+
+.dashboard-product-wrapper div {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-product-image {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-product-image img {
+  height: 100px;
+}
+
+.seller-db-prod-name {
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.seller-db-prod-name a {
+  color: black;
+  cursor: pointer;
+}
+
+.seller-db-prod-name a:hover {
+  color: #f76b1a;
+  text-decoration: none;
+}
+
+.live {
+  background-color: green;
+  border-radius: 3px;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+}
+
+.rejected {
+  background-color: red;
+  border-radius: 3px;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+}
+
+.sold-out {
+  background-color: gray;
+  border-radius: 3px;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+}
+
+.under-review {
+  background-color: blue;
+  border-radius: 3px;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+}
+
+.x {
+  display: none;
+}
+
+.seller-db-panel,
+.order-db-panel {
+  background-color: #fff !important;
+  padding: 4px !important;
+  width: 100%;
+}
+
+.search-2:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #d4d4d4;
+}
+
+@media screen and (max-width: 960px) {
+  .dashboard-product-wrapper {
+    padding: 10px;
+  }
+
+  .seller-db-prod-name {
+    max-width: 400px;
+  }
+
+  .seller-db-panel,
+  .order-db-panel {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .x {
+    display: block;
+  }
+
+  .y {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .seller-db-prod-name {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dashboard-product-wrapper div {
+    margin-bottom: 10px;
+  }
+  .seller-db-prod-name {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .dashboard-product-wrapper div {
+    margin-bottom: 10px;
+  }
+  .seller-db-prod-name {
+    max-width: 200px;
+  }
+}

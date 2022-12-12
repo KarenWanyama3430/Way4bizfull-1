@@ -1,0 +1,18 @@
+.payment {
+  margin-bottom: 40px;
+}
+
+.radio-title-button div {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.payment-method-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-method-info img {
+  height: 60px;
+}

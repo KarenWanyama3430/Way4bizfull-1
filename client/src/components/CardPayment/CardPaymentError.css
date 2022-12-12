@@ -1,0 +1,26 @@
+#stripe-payment-error-info {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.stripe-error-to-shop {
+  border: none;
+  color: #fff;
+  background-color: #f76b1a;
+}
+
+.stripe-error-to-shop:hover {
+  color: #fff;
+}
+
+.stripe-error-to-shop:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (max-width: 960px) {
+  #stripe-payment-error-info {
+    width: 90%;
+  }
+}

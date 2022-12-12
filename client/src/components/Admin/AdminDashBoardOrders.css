@@ -1,0 +1,85 @@
+.admin-order-search-filter {
+  display: flex;
+}
+
+.admin-order-search-filter .search {
+  flex: 5;
+}
+
+.admin-order-search-filter .search input {
+  border: 1px solid #d4d4d4;
+}
+
+.admin-order-search-filter .search input:focus {
+  border: 1px solid #d4d4d4;
+  box-shadow: none;
+  outline: none;
+}
+
+#order-search-btn {
+  border: 1px solid #d4d4d4;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #f76b1a;
+  padding: 0px 3px;
+  color: #fff;
+}
+.admin-order-search-filter .filter {
+  flex: 1;
+}
+
+.admin-filter {
+  width: 100px;
+  margin: auto;
+  position: relative;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-options {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 30;
+  padding-left: 10px;
+  top: 40px;
+  right: 0px;
+}
+
+.admin-filter:hover .filter-options {
+  display: block;
+}
+
+.admin-dashboard-order-wrapper {
+  border-left: 3px solid #f76b1a;
+}
+
+.admin-order-view-more-link {
+  color: #f76b1a;
+  padding: 3px;
+}
+
+.admin-order-view-more-link:hover {
+  text-decoration: none;
+  color: #f76b1a;
+  background-color: rgba(255, 192, 203, 0.5);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.admin-no-orders {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+  .admin-dashboard-order div div {
+    display: flex;
+  }
+}

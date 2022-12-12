@@ -1,0 +1,94 @@
+.help-center-hero {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to bottom right, #f76b1a, yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#help-center-hero-head {
+  font-size: 50px;
+}
+
+#help-center-input {
+  width: 40%;
+  margin: 0px auto;
+}
+
+#help-center-input input {
+  height: 50px;
+  border: none;
+}
+
+#help-center-input input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.help-center-card {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.help-center-card p {
+  text-align: left;
+  line-height: 25px;
+}
+
+.help-center-text {
+  width: 100%;
+  margin: auto;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.help-center-learn-more-link {
+  color: #f76b1a;
+}
+
+.help-center-learn-more-link:hover {
+  color: #f76b1a;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1140px) {
+  .help-center-hero {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .help-center-hero {
+    height: 200px;
+  }
+
+  #help-center-hero-head {
+    font-size: 40px;
+  }
+
+  #help-center-input {
+    width: 50%;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #help-center-hero-head {
+    font-size: 20px;
+  }
+  #help-center-input {
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  #help-center-input input {
+    height: 40px;
+    border: none;
+  }
+}

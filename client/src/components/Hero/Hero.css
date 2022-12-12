@@ -1,0 +1,24 @@
+#hero {
+  margin: auto 20px;
+  height: 500px;
+  background-color: #eaecee;
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  #hero {
+    border: none;
+    padding: 0px;
+    height: 300px;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #hero {
+    border: none;
+    padding: 0px;
+    height: 250px;
+    margin: 0px;
+  }
+}

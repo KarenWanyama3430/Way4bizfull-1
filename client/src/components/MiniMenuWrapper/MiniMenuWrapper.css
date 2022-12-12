@@ -1,0 +1,11 @@
+#mini-menu-wrapper {
+  /* height:90px; */
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 961px) {
+  #mini-menu-wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+#dashboard-orders-sm-screen {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  #dashboard-orders-lg-screen {
+    display: none;
+  }
+
+  #dashboard-orders-sm-screen {
+    display: block;
+  }
+
+  .seller-orders-title {
+    width: 100vw !important;
+  }
+
+  .order-tab {
+    background-color: #fff;
+    width: 100vw;
+  }
+}

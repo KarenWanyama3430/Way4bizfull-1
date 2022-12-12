@@ -1,0 +1,12 @@
+#full-screen-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  z-index: 1500000;
+}

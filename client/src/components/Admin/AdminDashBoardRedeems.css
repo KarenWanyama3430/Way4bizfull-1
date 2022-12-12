@@ -1,0 +1,44 @@
+.redeem-wrapper h6 {
+  display: flex;
+}
+
+.redeem-wrapper h6 span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.redeem-pay-btn {
+  background-color: #f76b1a;
+  color: #fff;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.redeem-pay-btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.redeem-paid-btn {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.redeem-seller {
+  color: #000;
+}
+
+.redeem-seller:hover {
+  color: #f76b1a;
+}
+
+@media screen and (max-width: 719px) {
+  .redeem-wrapper div {
+    margin: 5px 0px;
+  }
+}

@@ -1,0 +1,30 @@
+#logo,
+#account-header-logo,
+#help-center-header-logo {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  height: 80px;
+}
+
+#logo h1 {
+  align-self: center;
+}
+
+@media screen and (max-width: 960px) {
+  #logo,
+  #account-header-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #logo {
+    display: flex;
+  }
+}

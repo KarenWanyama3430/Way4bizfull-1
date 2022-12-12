@@ -1,0 +1,92 @@
+#user-auth {
+  position: relative;
+  height: 80px;
+}
+
+.user-icon {
+  color: #f76b1a;
+}
+
+.user-icon span {
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#auth-info {
+  margin-top: 0px;
+  min-width: 250px;
+  min-height: 200px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 10000;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px 10px 20px 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0px;
+}
+
+#user-auth:hover #auth-info {
+  display: flex;
+}
+
+.login {
+  border: none;
+  background-color: #f76b1a;
+  color: #fff;
+}
+
+.login:hover {
+  color: #fff;
+}
+
+.login:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+#register-link {
+  color: #f76b1a;
+  font-weight: bold;
+}
+
+#register-link:hover {
+  color: #f76b1a;
+  text-decoration: none;
+}
+
+.my-account {
+  display: flex;
+  flex-direction: column;
+  margin: auto -10px -20px -10px;
+  background-color: #f8f9f9;
+}
+
+.my-account-link {
+  padding: 10px;
+}
+.my-account-link:hover {
+  /* padding: 10px;
+  font-weight: bold; */
+  color: #f76b1a !important;
+  background-color: #eee;
+}
+
+.logout-link {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+.logout-link:hover {
+  text-decoration: none;
+  color: #f76b1a;
+}

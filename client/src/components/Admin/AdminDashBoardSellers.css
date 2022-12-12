@@ -1,0 +1,20 @@
+.admin-seller p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.admin-seller-view-more {
+  color: #f76b1a;
+  padding: 3px;
+}
+
+.admin-seller-view-more:hover {
+  color: #f76b1a;
+  text-decoration: none;
+  background-color: rgba(255, 192, 203, 0.5);
+  padding: 3px;
+  border-radius: 5px;
+}

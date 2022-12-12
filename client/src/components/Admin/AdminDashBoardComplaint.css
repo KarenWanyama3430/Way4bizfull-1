@@ -1,0 +1,29 @@
+.admin-complain h6 {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.complain-product-images {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 10px;
+  background-color: #eaecee;
+}
+
+.complain-product-images div {
+  width: 100%;
+}
+
+.complain-product-images div img {
+  width: 100%;
+}
+
+.admin-no-complains {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

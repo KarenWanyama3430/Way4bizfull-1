@@ -1,0 +1,18 @@
+.inbox-filter-wrapper p {
+  cursor: pointer;
+}
+
+.inbox-filter-wrapper p:hover {
+  color: #f76b1a;
+}
+
+.read-unread {
+  position: absolute;
+  right: 20px;
+  bottom: 2px;
+}
+
+.mark-as-read {
+  color: #f76b1a;
+  cursor: pointer;
+}

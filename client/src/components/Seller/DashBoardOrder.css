@@ -1,0 +1,43 @@
+.dashboard-order-wrapper {
+  display: flex;
+  align-items: center;
+  border-left: 3px solid #f76b1a;
+  padding-left: 10px;
+}
+
+.dashboard-order-wrapper div div {
+  display: flex;
+}
+
+.view-order-details-link a {
+  color: #f76b1a;
+  padding: 3px;
+}
+
+.view-order-details-link a:hover {
+  background-color: rgba(255, 192, 203, 0.5);
+  border-radius: 5px;
+}
+
+.view-order-details-link a:hover {
+  text-decoration: none;
+}
+
+.id-cut {
+  text-overflow: ellipsis;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+  .dashboard-order-wrapper div {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .id-cut {
+    width: 200px;
+  }
+}

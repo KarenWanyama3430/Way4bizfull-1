@@ -1,0 +1,11 @@
+#bottom-page-loader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* 
+@media screen and (max-width: 960px) {
+  #bottom-page-loader {
+    margin-bottom: 70px;
+  }
+} */

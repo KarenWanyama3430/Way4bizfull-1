@@ -1,0 +1,22 @@
+.logistics-payment-wrapper {
+  min-height: 50vh;
+}
+
+.logistics-confirm-payment {
+  width: 200px !important;
+}
+
+.logisitics-confirm-details p,
+.logistics-driver-details p {
+  margin: 5px 0px;
+}
+
+.logisitics-confirm-details a {
+  margin: 5px 0px;
+  font-weight: bold;
+  color: #f76b1a;
+}
+
+.logisitics-confirm-details a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,54 @@
+.order-placement-top {
+  line-height: 30px;
+}
+
+#check-order-status {
+  color: #f76b1a;
+}
+
+#check-order-status:hover {
+  color: #f76b1a;
+  text-decoration: underline;
+}
+
+.order-item-name {
+  width: 100%;
+  margin: auto;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.order-amounts div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-payment-info div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#order-help h6 a {
+  color: #f76b1a;
+}
+
+.success-order-item {
+  border-bottom: 1px solid #d4d4d4;
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 420px) {
+  .success-order-item {
+    border-bottom: 1px solid #d4d4d4;
+    margin: 15px 0px;
+  }
+  .order-item-name {
+    -webkit-line-clamp: 1;
+  }
+}

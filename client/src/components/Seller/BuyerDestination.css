@@ -1,0 +1,18 @@
+.id-cut p {
+  width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 960px) {
+  .id-cut p {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .id-cut p {
+    width: 200px;
+  }
+}

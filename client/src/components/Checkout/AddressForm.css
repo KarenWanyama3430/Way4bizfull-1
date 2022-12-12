@@ -1,0 +1,44 @@
+#address-form,
+#logistics-for {
+  padding: 15px 10px;
+}
+
+#address-form h3,
+#logistics-form h3 {
+  margin: 20px 10px;
+}
+
+.address-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-btn {
+  background-color: #f76b1a;
+  color: #fff;
+}
+
+.address-btn:hover {
+  color: #fff;
+}
+
+.address-btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.address-location-input {
+  position: relative;
+}
+
+.address-location-input input {
+  border: 1px solid #d4d4d4;
+  height: 50px;
+}
+
+.address-location-input input:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #d4d4d4;
+}

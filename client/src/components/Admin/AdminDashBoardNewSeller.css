@@ -1,0 +1,35 @@
+.accept-sell-request-btn {
+  background-color: #f76b1a;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+}
+
+.accept-sell-request-btn:hover {
+  color: #fff;
+}
+
+.accept-sell-request-btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.seller-images {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 10px;
+  background-color: #eaecee;
+}
+
+.seller-images img {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .seller-images img {
+    height: auto;
+    width: 100%;
+  }
+}

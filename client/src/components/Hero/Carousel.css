@@ -1,0 +1,231 @@
+.hero-main-wrapper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+#hero-main-wrapper-left {
+  flex: 4;
+  height: 100%;
+  padding-right: 5px;
+  position: relative;
+}
+
+#hero-main-wrapper-right {
+  flex: 2;
+  height: 100%;
+  padding-left: 5px;
+}
+
+.hero-carousel-wrapper {
+  height: 60%;
+  padding-bottom: 5px;
+}
+
+.random-stuff-wrapper {
+  height: 40%;
+  padding-top: 5px;
+}
+
+.hero-carousel,
+.hero-account-section,
+.random-stuff {
+  height: 100%;
+}
+
+.hero-account-section {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#hero-sliders,
+.slider {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.slider img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.random-stuff {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 2px;
+}
+.random-stuff div {
+  height: 100%;
+  background-color: #fff;
+}
+
+.hero-random-image {
+  width: 100%;
+}
+
+.hero-product-name {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.hero-product-price {
+  text-align: center;
+}
+
+.hero-account-section {
+  background: linear-gradient(to bottom right, #f76b1a, yellow);
+  padding: 50px 0px;
+}
+
+.hero-user {
+  font-size: 80px;
+  color: #fff;
+}
+
+.hero-auth-btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero-auth-btns a {
+  border: none;
+  min-width: 80px;
+}
+
+.hero-auth-btns a:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.sign-in-hero-btn,
+.sign-in-hero-btn:hover {
+  background-color: #fff;
+  color: #f76b1a;
+}
+
+.join-hero-btn,
+.join-hero-btn:hover {
+  background-color: #f76b1a;
+  color: #fff;
+}
+
+.hero-product-name {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.hero-account-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.hero-account-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.hero-account-link p {
+  color: #333;
+}
+
+.hero-account-icon-wrapper {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #f76b1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* style carousel buttons */
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #f76b1a !important;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.anything {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  margin: auto;
+}
+.anything div {
+  background-color: #f76b1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  margin: auto;
+}
+#latest-deal {
+  width: 60%;
+  margin: auto;
+  background-color: black;
+  color: #fff;
+  border-radius: 20px;
+  /* text-align: center; */
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 991px) {
+  .hero-carousel-wrapper {
+    height: 100%;
+  }
+
+  #hero-main-wrapper-left {
+    flex: 4;
+    height: 100%;
+    padding: 0px 5px;
+  }
+  #hero-main-wrapper-right {
+    display: none;
+  }
+
+  .random-stuff-wrapper {
+    display: none;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .carousel-indicators {
+    bottom: 0px;
+  }
+}

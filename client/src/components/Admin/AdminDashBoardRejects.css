@@ -1,0 +1,38 @@
+.admin-rejected-product {
+  border-left: 3px solid #f76b1a;
+}
+
+/* .why-reject {
+  width: 100%;
+  margin: auto;
+  word-wrap: break-word;
+  -webkit-line-clamp: 5;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+} */
+
+.admin-rejected-product-view-more {
+  color: #f76b1a;
+}
+
+.admin-rejected-product-view-more:hover {
+  color: #f76b1a;
+  text-decoration: none;
+}
+
+.reject-to-store {
+  color: #f76b1a;
+}
+
+.reject-to-store:hover {
+  color: #f76b1a;
+  text-decoration: underline;
+}
+
+/* @media screen and (max-width: 960px) {
+  .why-reject {
+    -webkit-line-clamp: 4;
+  }
+} */

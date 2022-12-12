@@ -1,0 +1,36 @@
+.product-reject-form-wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+.product-send-rejection {
+  border: none;
+  background-color: #f76b1a;
+  color: #fff;
+  width: 100%;
+}
+
+.product-send-rejection:hover {
+  color: #fff;
+}
+
+.product-send-rejection:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+#product-reject-input {
+  border: 1px solid #d4d4d4;
+}
+
+#product-reject-input:focus {
+  border: 1px solid #d4d4d4;
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (max-width: 960px) {
+  .product-reject-form-wrapper {
+    width: 100%;
+  }
+}

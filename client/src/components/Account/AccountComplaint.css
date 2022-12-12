@@ -1,0 +1,36 @@
+.account-individual-complain {
+  padding: 10px;
+}
+
+.account-complain h6,
+.account-logistic h6 {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.account-visit-store {
+  color: #f76b1a;
+}
+
+.account-visit-store:hover {
+  color: #f76b1a;
+  text-decoration: none;
+}
+
+.account-complain-product-images {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 10px;
+  background-color: #eaecee;
+}
+
+.account-complain-product-images div {
+  width: 100%;
+}
+
+.account-complain-product-images div img {
+  width: 100%;
+}

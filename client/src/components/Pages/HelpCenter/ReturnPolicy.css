@@ -1,0 +1,13 @@
+.return-content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.return-content h4,
+.return-content h6 {
+  margin-bottom: 10px;
+}
+
+.return-content ul {
+  margin-left: 30px;
+}

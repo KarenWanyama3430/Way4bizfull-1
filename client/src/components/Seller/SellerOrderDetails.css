@@ -1,0 +1,49 @@
+.seller-db-order-details-wrapper {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.seller-order-wrapper {
+  padding: 10px;
+  border-left: 3px solid #f76b1a;
+}
+
+.seller-order-wrapper div,
+.seller-order-wrapper div p {
+  display: flex;
+  align-items: center;
+}
+
+#buyer-destination {
+  width: 100%;
+  height: 80px;
+  overflow: auto;
+}
+
+#buyer-destination::-webkit-scrollbar {
+  width: 8px;
+}
+
+#buyer-destination::-webkit-scrollbar-track {
+  background-color: #eaecee;
+  border: 1px solid #d4d4d4;
+}
+
+#buyer-destination::-webkit-scrollbar-thumb {
+  background-color: #f76b1a;
+  height: 5px;
+  width: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .seller-order-wrapper div {
+    margin-bottom: 10px;
+  }
+
+  #buyer-destination {
+    width: 100%;
+    max-height: 100px;
+    overflow: auto;
+  }
+}

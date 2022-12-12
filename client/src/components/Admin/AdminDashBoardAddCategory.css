@@ -1,0 +1,40 @@
+.sub-category-wrapper {
+  display: inline;
+  padding: 0px 5px;
+  background-color: #eaecee;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.add-category-form input {
+  border: 1px solid #d4d4d4;
+}
+
+.add-category-form input:focus {
+  box-shadow: none;
+  border: 1px solid #d4d4d4;
+  outline: none;
+}
+
+#sub-category-enter {
+  background-color: #f76b1a;
+  color: #fff;
+  border: none;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#sub-category-enter:hover {
+  color: #fff;
+}
+
+#sub-category-enter:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}

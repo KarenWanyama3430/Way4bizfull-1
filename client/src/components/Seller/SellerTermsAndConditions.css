@@ -1,0 +1,24 @@
+.seller-profiling-terms-wrapper{
+    height:calc(100vh - 140px);
+}
+
+.inner-seller-profiling-terms-wrapper{
+    height:100%;
+}
+
+.seller-profiling-terms {
+    height: 85%;
+    overflow-y: auto;
+    padding:10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+
+.seller-profiling-terms::-webkit-scrollbar{
+    width:8px;
+}
+
+.seller-profiling-terms::-webkit-scrollbar-thumb{
+    background-color: #f76b1a;
+}

@@ -1,0 +1,119 @@
+.admin-order-items-wrapper {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.order-title {
+  width: 80%;
+  margin: auto;
+}
+
+.individual-order-item {
+  padding-left: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.individual-order-item .row div {
+  display: flex;
+  flex-direction: column;
+}
+
+.individual-order-item .row div p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.individual-order-item .row div a {
+  color: #f76b1a;
+  padding: 3px;
+}
+
+.individual-order-item .row div a:hover {
+  color: #f76b1a;
+  text-decoration: none;
+  background-color: rgba(255, 192, 203, 0.5);
+  border-radius: 5px;
+}
+
+.admin-order-product p {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.admin-order-item-name:hover {
+  color: #f76b1a;
+  text-decoration: underline;
+}
+
+.admin-order-visit-store {
+  color: #f76b1a;
+  padding: 3px;
+}
+
+.admin-order-visit-store:hover {
+  text-decoration: none;
+  color: #f76b1a;
+  background-color: rgba(255, 192, 203, 0.5);
+  border-radius: 5px;
+}
+
+.confirm-delivery-btn,
+.confirm-dispatch-btn {
+  background-color: #f76b1a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.confirm-delivery-btn:hover,
+.confirm-dispatch-btn:hover {
+  color: #fff;
+}
+
+.confirm-delivery-btn:focus,
+.confirm-dispatch-btn:hover {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 960px) {
+  .admin-order-items-wrapper {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+  }
+
+  .order-title {
+    width: 100%;
+    margin: auto;
+  }
+
+  .individual-order-item {
+    border-left: 3px solid #f76b1a;
+    padding-left: 10px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .admin-order-items-wrapper {
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+  }
+  .individual-order-item .row div {
+    padding: 0px 10%;
+  }
+  .individual-order-item .row div p {
+    display: flex;
+  }
+}

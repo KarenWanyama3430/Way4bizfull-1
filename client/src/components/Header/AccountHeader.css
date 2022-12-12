@@ -1,0 +1,14 @@
+.account-header {
+  height: 80px;
+}
+
+@media screen and (max-width: 960px) {
+  .account-header {
+    display: flex;
+    justify-content: space-between !important;
+  }
+}
+
+/* @media screen and (max-width:540px){
+
+} */

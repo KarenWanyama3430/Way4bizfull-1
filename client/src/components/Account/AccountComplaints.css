@@ -1,0 +1,46 @@
+.no-buyer-complaints {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.account-complaint-wrapper {
+  border-left: 3px solid #f76b1a;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.account-complaint-wrapper div p {
+  padding: 10px 0px;
+  display: flex;
+}
+
+.account-complaint-wrapper div p span {
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.account-complaint-view-more {
+  color: #f76b1a;
+  padding: 3px;
+}
+
+.account-complaint-view-more:hover {
+  color: #f76b1a;
+  text-decoration: none;
+  background-color: rgba(255, 192, 203, 0.5);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .no-buyer-complaints {
+    min-height: 100vh;
+    margin: 0px !important;
+  }
+}

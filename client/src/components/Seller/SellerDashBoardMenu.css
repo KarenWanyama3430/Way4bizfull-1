@@ -1,0 +1,82 @@
+#seller-dashboard-menu {
+  height: calc(100vh - 90px);
+  /* height: 100vh; */
+  width: 100%;
+  margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+  left: 0px;
+}
+
+#seller-dashboard-menu ul {
+  list-style: none;
+  padding: 40px 0px 40px 80px;
+  color: #fff;
+  height: 80%;
+  overflow-y: auto;
+  position: relative;
+}
+
+#seller-dashboard-menu ul::-webkit-scrollbar {
+  width: 5px;
+}
+
+#seller-dashboard-menu ul::-webkit-scrollbar-thumb {
+  background-color: #f76b1a;
+}
+
+.seller-menu-active {
+  color: #f76b1a !important;
+}
+
+#seller-menu-items li {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#seller-menu-items a:hover {
+  background-color: #000822;
+  width: 100%;
+}
+
+#seller-menu-items a:hover li {
+  color: #f76b1a !important;
+}
+
+#seller-menu-items .link {
+  display: flex;
+  align-items: center;
+}
+
+#seller-menu-profile {
+  height: 15%;
+  width: 100%;
+  padding-left: 80px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#seller-menu-profile h5 {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#seller-menu-user-icon {
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  #seller-dashboard-menu {
+    display: none;
+  }
+}

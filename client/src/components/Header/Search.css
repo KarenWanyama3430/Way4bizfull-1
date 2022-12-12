@@ -1,0 +1,155 @@
+#header-search,
+#account-header-search {
+  height: 100%;
+  flex: 5;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 200;
+  padding: 0px;
+}
+
+.header-input-search {
+  height: 50px;
+  border: 1px solid #f76b1a !important;
+  padding: 0px 0px 0px 10px !important;
+  position: relative;
+  z-index: 600;
+}
+
+.header-input-search:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+#header-search-btn {
+  width: 120px;
+  border: 1px solid #f76b1a;
+  background-color: #f76b1a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  position: relative;
+  z-index: 600;
+}
+
+#header-search-btn span {
+  font-size: 20px;
+}
+
+#header-search-btn:focus {
+  border: 1px solid #f76b1a;
+  box-shadow: none;
+  outline: none;
+}
+
+.search-output {
+  width: 100%;
+  position: absolute;
+  top: 63px;
+  z-index: 80000;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.search-output div {
+  position: relative;
+  z-index: 200;
+}
+
+.searched-output-link-wrapper {
+  margin: none;
+  padding: 10px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.searched-output-link-wrapper:hover {
+  background-color: #eee;
+}
+
+.searched-product-link {
+  color: #000;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-product-image,
+.search-product-image img {
+  height: 100%;
+}
+
+.searched-product-link:hover {
+  text-decoration: none;
+  color: #f76b1a;
+}
+
+.search-product-image {
+  flex: 1;
+}
+
+.search-product-name {
+  flex: 8;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.search-product-price {
+  flex: 1;
+}
+
+.light-shed {
+  background-color: transparent;
+  z-index: 500;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (max-width: 960px) {
+  #header-search {
+    width: 100% !important;
+  }
+
+  #account-header-search {
+    display: none;
+  }
+
+  .search-output {
+    width: 100%;
+    top: 60px;
+    z-index: 80000;
+  }
+
+  .header-input-search {
+    height: 40px;
+  }
+
+  #header-search-btn {
+    width: 100px;
+  }
+
+  #header-search-btn span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #header-search {
+    flex: 4 !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #header-search-btn {
+    width: 80px;
+  }
+}

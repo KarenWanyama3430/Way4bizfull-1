@@ -1,0 +1,26 @@
+.store-settings-form input:focus,
+.store-settings-form textarea:focus {
+  border: 1px solid #d4d4d4;
+  outline: none;
+  box-shadow: none;
+}
+
+.store-settings-form label {
+  margin-top: 10px;
+}
+
+.store-settings-btn {
+  background-color: #f76b1a;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.store-settings-btn:hover {
+  color: #fff;
+}
+
+.store-settings-btn:focus {
+  box-shadow: none;
+  outline: none;
+}

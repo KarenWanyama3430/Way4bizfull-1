@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 960px) {
+  html,
+  body,
+  #root {
+    overflow-x: hidden !important;
+  }
+}
+
+html,
+body {
+  background-color: #eaecee;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f76b1a !important;
+  border-radius: 3px;
+}
+
+.white-body {
+  background-color: #fff !important;
+}
+
+#root {
+  max-width: 1500px;
+  margin: 0px auto;
+  font-size: 14px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+input:focus {
+  box-shadow: none;
+  outline: none;
+}

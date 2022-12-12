@@ -1,0 +1,9 @@
+.dangerous-stuff img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.dangerous-stuff ul {
+  /* font-size: 20px; */
+  padding: 15px;
+}

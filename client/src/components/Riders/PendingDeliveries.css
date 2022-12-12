@@ -1,0 +1,14 @@
+.pending-deliveries {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.pending-deliveries div {
+  border-bottom: 1px solid #d4d4d4;
+  margin: 10px 0px;
+  padding: 5px 0px;
+}
+
+.pending-deliveries div:last-child {
+  border: none;
+}

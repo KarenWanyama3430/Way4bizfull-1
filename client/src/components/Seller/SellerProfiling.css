@@ -1,0 +1,21 @@
+.nav-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-btns button {
+  background-color: #f76b1a;
+  color: #fff;
+}
+
+.nav-btns button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-btns button:hover {
+  color: #fff;
+}
+
+

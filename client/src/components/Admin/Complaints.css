@@ -1,0 +1,32 @@
+.admin-complain-2 div {
+  padding: 10px 0px 10px 15px;
+}
+
+.admin-complain-2 div p {
+  display: flex;
+}
+
+.admin-complain-2 div p span {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.complaint-view-more {
+  color: #f76b1a;
+  padding: 3px;
+}
+
+.complaint-view-more:hover {
+  color: #f76b1a;
+  text-decoration: none;
+  background-color: rgba(255, 192, 203, 0.5);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 960px) {
+  .admin-complain-2 div {
+    padding: 5px 0px 10px 15px;
+  }
+}

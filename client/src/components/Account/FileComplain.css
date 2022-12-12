@@ -1,0 +1,23 @@
+.submit-complain {
+  background-color: #f76b1a;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.submit-complain:hover {
+  color: #fff;
+}
+
+.submit-complain:focus {
+  box-shadow: none;
+  outline: none;
+}
+#complain-input-field {
+  border: 1px solid #d4d4d4;
+}
+#complain-input-field:focus {
+  border: 1px solid #d4d4d4;
+  box-shadow: none;
+  outline: none;
+}

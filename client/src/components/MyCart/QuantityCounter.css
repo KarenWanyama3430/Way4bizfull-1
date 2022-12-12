@@ -1,0 +1,25 @@
+#quantity-counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quantity-counter button{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border:1px solid #eee;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quantity-counter button:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+#quantity-counter button:hover{
+    color:#fff;
+    background-color: #f76b1a;
+}

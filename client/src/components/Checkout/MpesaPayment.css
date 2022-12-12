@@ -1,0 +1,36 @@
+#change-payment-method {
+  color: #f76b1a;
+  cursor: pointer;
+}
+
+/* #change-payment-method:hover {
+  text-decoration: none;
+} */
+
+.mpesa-payment-guide {
+  margin: 0px 0px 0px 30px;
+}
+
+.mpesa-payment-guide li {
+  margin: 20px 0px;
+}
+
+.initiate-payment {
+  border: none;
+  background-color: #f76b1a;
+  color: #fff;
+}
+
+.initiate-payment:hover {
+  color: #fff;
+}
+
+.initiate-payment:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.mpesa {
+  font-size: 30px;
+  border: none;
+}

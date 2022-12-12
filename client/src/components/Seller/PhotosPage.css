@@ -1,0 +1,28 @@
+.drop-stuff {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  height: 300px;
+}
+
+.product-image-upload-hero {
+  padding: 10px 0px;
+}
+
+.product-upload-btn-wrapper div {
+  background-color: #f76b1a;
+  color: #fff;
+  border: none;
+  padding: 5px 7px;
+  width: 200px;
+}
+
+@media screen and (max-width: 1139px) {
+  .product-image-upload-hero {
+    display: none;
+  }
+
+  .drop-stuff {
+    height: auto;
+  }
+}

@@ -1,0 +1,30 @@
+.referral-input {
+  border-left: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.referral-input:focus {
+  border-left: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  outline: none;
+  box-shadow: none;
+}
+
+#referral-btn {
+  background-color: #f76b1a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#referral-btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}

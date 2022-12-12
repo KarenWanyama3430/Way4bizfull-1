@@ -1,0 +1,13 @@
+#login-auth-links-wrapper,.seller-login-auth-links-wrapper {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 920px) {
+  #login-auth-links-wrapper,.seller-login-auth-links-wrapper {
+    width: 90vw;
+    font-size: 15px;
+  }
+}

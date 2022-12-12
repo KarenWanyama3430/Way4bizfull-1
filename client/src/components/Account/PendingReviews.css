@@ -1,0 +1,88 @@
+.buyer-no-pending-reviews {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.no-reviews-icon {
+  font-size: 60px;
+  color: #f76b1a;
+}
+
+.buyer-no-pending-reviews p {
+  width: 80%;
+  text-align: center;
+}
+
+.pending-review-shopping-btn,
+.pending-review-shopping-btn:hover {
+  background-color: #f76b1a;
+  color: #fff;
+  border: none;
+}
+
+.pending-review-shopping-btn:focus {
+  border: none;
+  outline: none;
+}
+
+.buyer-pending-reviews {
+  padding: 20px;
+}
+.buyer-pending-review {
+  border-left: 3px solid #f76b1a;
+}
+
+.buyer-pending-review div {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.buyer-pending-review div img {
+  height: 100px;
+}
+
+#buyer-review-product-details {
+  display: block;
+}
+
+#buyer-review-product-details h6 {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.rate-link-wrapper a,
+.rate-link-wrapper a:hover {
+  color: #f76b1a;
+  text-decoration: none;
+}
+
+.pending-review-rate-link {
+  padding: 3px;
+}
+
+.pending-review-rate-link:hover {
+  background-color: rgba(255, 192, 203, 0.5);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 960px) {
+  .pending-reviews-wrapper {
+    margin-bottom: 65px;
+  }
+
+  .rate-link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #d4d4d4;
+    padding: 5px 0px;
+  }
+}

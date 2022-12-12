@@ -1,0 +1,23 @@
+#product-reviews-wrapper {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.reviews-link:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+  #product-reviews-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #product-reviews-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+}

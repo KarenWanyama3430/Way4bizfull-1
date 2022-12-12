@@ -1,0 +1,410 @@
+#main,
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  position: relative;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.box-container {
+  background: #fff !important;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 15px;
+}
+
+.link,
+.link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.primary-text {
+  color: black;
+}
+
+.primary-background {
+  background-color: #00001e;
+}
+
+.primary-button,
+.primary-button:hover {
+  background-color: #00001e;
+  border: 1px solid #00001e;
+  height: 50px;
+  /* border-radius: 40px; */
+  cursor: pointer;
+  color: #f76b1a;
+  width: 500px;
+  margin: auto;
+}
+
+.primary-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.primary-link {
+  color: #000;
+}
+
+.primary-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.secondary-text {
+  color: #f76b1a;
+}
+
+.secondary-link {
+  color: #f76b1a;
+}
+
+.secondary-link:hover {
+  color: #f76b1a;
+  text-decoration: none;
+}
+
+.secondary-button,
+.secondary-button:hover {
+  color: #fff;
+  background-color: #f76b1a;
+  height: 50px;
+  cursor: pointer;
+  color: #fff;
+  width: 400px;
+  margin: auto;
+}
+
+.secondary-button:focus,
+.secondary-google:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.tertiary-background {
+  background-color: #f8f9f9;
+}
+
+.google {
+  background-color: #4885ed;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.google:hover {
+  color: #fff;
+}
+
+.google:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.secondary-google {
+  background-color: #4885ed;
+  border: 1px solid #4885ed;
+  height: 50px;
+  /* border-radius: 40px; */
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  margin: auto;
+}
+
+.secondary-google:hover {
+  color: #fff;
+}
+
+.form-primary-error {
+  color: red;
+  margin: 10px 0px;
+  width: 400px;
+  margin: auto;
+}
+
+.dashboard-wrapper {
+  padding: 0px;
+}
+
+.icon-container {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.icon-container .badge {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.market-rating {
+  width: 50px;
+}
+
+.checkbox input[type="checkbox"] {
+  opacity: 0;
+}
+
+.checkbox label::before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #f76b1a;
+  border-radius: 4px;
+}
+
+.checkbox label::after {
+  content: "";
+  display: inline-block;
+  height: 6px;
+  width: 9px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  transform: rotate(-45deg);
+}
+
+.checkbox label {
+  position: relative;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+  position: absolute;
+}
+
+.checkbox label::before {
+  top: 3px;
+  left: -20px;
+}
+
+.checkbox label::after {
+  left: -16px;
+  top: 7px;
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"] + label::after {
+  content: none;
+}
+/*Unhide the checkmark on the checked state*/
+.checkbox input[type="checkbox"]:checked + label::after {
+  content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.checkbox input[type="checkbox"]:focus + label::before {
+  outline: #f76b1a auto 5px;
+}
+
+.checkbox input[type="checkbox"]:focus + label::after {
+  /* outline: #f76b1a auto 5px; */
+  color: #000 !important;
+}
+
+.radio input[type="radio"] {
+  opacity: 0;
+}
+
+.radio label::before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #f76b1a;
+  border-radius: 50%;
+}
+
+.radio label::after {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #f76b1a;
+}
+
+.radio label {
+  position: relative;
+}
+
+.radio label::before,
+.radio label::after {
+  position: absolute;
+}
+
+.radio label::before {
+  top: 3px;
+  left: -20px;
+}
+
+.radio label::after {
+  left: -16px;
+  top: 7px;
+}
+
+/*Hide the checkmark by default*/
+.radio input[type="radio"] + label::after {
+  content: none;
+}
+/*Unhide the checkmark on the checked state*/
+.radio input[type="radio"]:checked + label::after {
+  content: "";
+}
+
+.radio input[type="radio"]:focus + label::before {
+  border: 2px solid #f76b1a;
+}
+
+.radio input[type="radio"]:focus + label::after {
+  color: #f76b1a;
+}
+
+#download-guide-link {
+  color: #f76b1a;
+}
+
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-shed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.x {
+  display: none;
+}
+
+.arrow-icon {
+  font-size: 35px !important;
+  color: #f76b1a !important;
+}
+
+.RRT__inkbar {
+  background-color: #f76b1a !important;
+}
+
+.form-input {
+  width: 500px;
+  margin: auto;
+}
+
+.seller-input-field {
+  width: 90%;
+  margin: auto;
+}
+
+.form-input input,
+.seller-input-field input,
+.seller-input-field select,
+.form-input select,
+.form-input2 input,
+.form-input2 select {
+  height: 50px;
+}
+
+.form-input input,
+.seller-input-field input,
+.form-input textarea,
+.form-input select,
+.form-input2 input,
+.form-input2 select {
+  border: 1px solid #d4d4d4;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid #d4d4d4;
+}
+
+.seller-input-field input:focus,
+.form-input input:focus,
+.form-input textarea:focus,
+.form-input select:focus,
+.seller-input-field select:focus,
+.form-input2 input:focus,
+.form-input2 textarea:focus,
+.form-input2 select:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #d4d4d4;
+}
+
+textarea {
+  overflow-y: auto;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0px;
+}
+/* textarea::-webkit-scrollbar {
+
+  width: 0;
+  height: 0;
+} */
+
+.phone {
+  height: 50px;
+  border: 1px solid #eee;
+  /* border-top-right-radius: 40px; */
+  /* border-bottom-right-radius: 40px; */
+  /* border-radius: 40px; */
+}
+
+.phone-prepend span {
+  height: 50px;
+  border: 1px solid #d4d4d4;
+  /* border-top-left-radius: 40px !important; */
+  /* border-bottom-left-radius: 40px !important; */
+  /* border-radius: 40px; */
+}
+
+@media screen and (max-width: 920px) {
+  .content {
+    margin-bottom: 65px;
+  }
+
+  .secondary-button,
+  .secondary-google,
+  .primary-button,
+  .forgot-password-link-wrapper,
+  .form-primary-error {
+    width: 90vw !important;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .x {
+    display: block;
+  }
+
+  .y {
+    display: none;
+  }
+}

@@ -1,0 +1,53 @@
+.not-found-wrapper {
+  height: 100vh;
+  position: relative;
+}
+
+.white-overlay {
+  background-color: #fff;
+  position: absolute;
+  top: 0px;
+  bottom: 65vh;
+  width: 100vw !important;
+}
+
+#not-found-num {
+  color: #fef1da;
+  font-size: 200px;
+  text-align: center;
+}
+
+.take-me-home-btn {
+  background-color: #ffae00;
+  border: none;
+  color: #fff;
+}
+
+.take-me-home-btn:hover {
+  color: #fff;
+}
+
+.take-me-home-btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (max-width: 960px) {
+  #not-found-num {
+    color: #fef1da;
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #not-found-num {
+    color: #fef1da;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .not-found-secondary-text {
+    text-align: center;
+  }
+}

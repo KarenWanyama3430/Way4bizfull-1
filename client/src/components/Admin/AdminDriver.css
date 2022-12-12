@@ -1,0 +1,7 @@
+.driver-delivery {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.driver-delivery:last-child {
+  border: none;
+}

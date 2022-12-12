@@ -1,0 +1,27 @@
+.reject-info {
+  border-left: 3px solid #f76b1a;
+}
+
+.reject-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 1px solid #d4d4d4;
+}
+
+.reject-link {
+  color: #f76b1a;
+}
+
+.reject-link:hover {
+  text-decoration: none;
+  color: #f76b1a;
+}
+
+.no-seller-products-rejects {
+  display: flex;
+  height: calc(100vh - 90px);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,50 @@
+.main-checkout-wrapper {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 0px;
+}
+
+#address-details h4,
+#delivery-details h4,
+#payment-methods h4 {
+  margin: 10px 20px;
+}
+
+#current-address {
+  padding: 10px 20px;
+}
+
+#payment-methods {
+  padding-bottom: 20px;
+  /* margin-bottom: 30px; */
+}
+
+.checkout-sub-total {
+  background-color: #fff;
+}
+
+.checkout-sub-total div {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.order-btn {
+  background-color: #f76b1a;
+  border: none;
+  height: 40px;
+  width: 100%;
+  color: #fff;
+}
+
+.order-btn:hover {
+  color: #fff;
+}
+
+.order-btn:focus {
+  box-shadow: none;
+  outline: none;
+}

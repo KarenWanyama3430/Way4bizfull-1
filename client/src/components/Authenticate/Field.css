@@ -1,0 +1,81 @@
+.form-input {
+  width: 500px;
+  margin: auto;
+}
+
+.seller-input-field {
+  width: 90%;
+  margin: auto;
+}
+
+.form-input input,
+.seller-input-field input,
+.seller-input-field select,
+.form-input select,
+.form-input2 input,
+.form-input2 select {
+  height: 50px;
+}
+
+.form-input input,
+.seller-input-field input,
+.form-input textarea,
+.form-input select,
+.form-input2 input,
+.form-input2 select {
+  border: 1px solid #d4d4d4;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid #d4d4d4;
+}
+
+.seller-input-field input:focus,
+.form-input input:focus,
+.form-input textarea:focus,
+.form-input select:focus,
+.seller-input-field select:focus,
+.form-input2 input:focus,
+.form-input2 textarea:focus,
+.form-input2 select:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #d4d4d4;
+}
+
+textarea {
+  overflow-y: auto;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0px;
+}
+/* textarea::-webkit-scrollbar {
+
+  width: 0;
+  height: 0;
+} */
+
+.phone {
+  height: 50px;
+  border: 1px solid #eee;
+  /* border-top-right-radius: 40px; */
+  /* border-bottom-right-radius: 40px; */
+  /* border-radius: 40px; */
+}
+
+.phone-prepend span {
+  height: 50px;
+  border: 1px solid #d4d4d4;
+  /* border-top-left-radius: 40px !important; */
+  /* border-bottom-left-radius: 40px !important; */
+  /* border-radius: 40px; */
+}
+
+@media screen and (max-width: 920px) {
+  .form-input {
+    width: 90vw !important;
+    margin: auto;
+  }
+}

@@ -1,0 +1,11 @@
+.admin-order-items-view {
+  color: #f76b1a;
+  padding: 3px;
+}
+
+.admin-order-items-view:hover {
+  color: #f76b1a;
+  text-decoration: none;
+  background-color: rgba(255, 192, 203, 0.5);
+  border-radius: 5px;
+}

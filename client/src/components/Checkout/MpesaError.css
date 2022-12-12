@@ -1,0 +1,20 @@
+.mpesa-error-guides {
+  padding-left: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.mpesa-error-to-shop {
+  border: none;
+  color: #fff;
+  background-color: #f76b1a;
+}
+
+.mpesa-error-to-shop:hover {
+  color: #fff;
+}
+
+.mpesa-error-to-shop:focus {
+  box-shadow: none;
+  outline: none;
+}
